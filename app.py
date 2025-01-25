@@ -54,7 +54,6 @@ if st.sidebar.button("Refresh Data"):
 else:
     st.info("Press 'Refresh Data' to get the latest information.")
 
-# Optional auto-refresh every 30 seconds
 if st.sidebar.checkbox("Auto-refresh every 30 seconds", value=False):
     st.experimental_rerun()
 
